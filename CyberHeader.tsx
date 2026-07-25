@@ -1,6 +1,6 @@
 import React from 'react';
 import { Shield, Volume2, VolumeX, Tv, HelpCircle, Backpack, FolderOpen, Radio } from 'lucide-react';
-import { playCyberSound } from '../utils/audio';
+import { playCyberSound } from './audio';
 
 interface CyberHeaderProps {
   soundEnabled: boolean;
