@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import { CaseData, ChatLogMessage, DetectiveResponse } from './types';
-import { NEO_CITY_CASES } from './data/cases';
-import { CyberHeader } from './components/CyberHeader';
-import { LevelProgress, getLevelInfo } from './components/LevelProgress';
-import { CaseDetailsCard } from './components/CaseDetailsCard';
-import { ConnectiveQuickBar } from './components/ConnectiveQuickBar';
-import { TerminalView } from './components/TerminalView';
-import { ConnectiveGuideModal } from './components/ConnectiveGuideModal';
-import { InventoryModal } from './components/InventoryModal';
-import { CaseSelectorModal } from './components/CaseSelectorModal';
-import { playCyberSound } from './utils/audio';
+import { NEO_CITY_CASES } from 'cases.ts';
+import { CyberHeader } from 'CyberHeader.tsx';
+import { LevelProgress, getLevelInfo } from 'LevelProgress.tsx';
+import { CaseDetailsCard } from 'CaseDetailsCard.tsx';
+import { ConnectiveQuickBar } from 'ConnectiveQuickBar.tsx';
+import { TerminalView } from 'TerminalView.tsx';
+import { ConnectiveGuideModal } from 'ConnectiveGuideModal.tsx';
+import { InventoryModal } from 'InventoryModal.tsx';
+import { CaseSelectorModal } from 'CaseSelectorModal.tsx';
+import { playCyberSound } from 'audio.ts';
 
 export default function App() {
   // Game & User State
