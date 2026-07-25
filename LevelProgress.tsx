@@ -1,5 +1,5 @@
 import React from 'react';
-import { CyberLevelInfo } from '../types';
+import { CyberLevelInfo } from './types';
 import { CYBER_LEVELS } from './items';
 import { motion } from 'motion/react';
 
