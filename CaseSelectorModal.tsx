@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { CaseData } from '../types';
-import { NEO_CITY_CASES } from '../data/cases';
+import { CaseData } from './types';
+import { NEO_CITY_CASES } from './cases';
 import { X, FolderOpen, Plus, AlertCircle, MapPin, Zap } from 'lucide-react';
 
 interface CaseSelectorModalProps {
