@@ -1,6 +1,6 @@
 import React from 'react';
 import { Sparkles } from 'lucide-react';
-import { playCyberSound } from '../utils/audio';
+import { playCyberSound } from './audio';
 
 interface ConnectiveQuickBarProps {
   onInsertConnective: (connective: string) => void;
