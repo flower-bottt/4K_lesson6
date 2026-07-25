@@ -1,6 +1,6 @@
 import React from 'react';
 import { CyberItem } from '../types';
-import { ALL_CYBER_ITEMS } from '../data/items';
+import { ALL_CYBER_ITEMS } from './items';
 import { X, Backpack, Sparkles, Lock } from 'lucide-react';
 
 interface InventoryModalProps {
