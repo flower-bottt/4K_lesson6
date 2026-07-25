@@ -1,4 +1,4 @@
-import { CaseData } from '../types';
+import { CaseData } from './types';
 
 export const NEO_CITY_CASES: CaseData[] = [
   {
