@@ -1,4 +1,4 @@
-import { CyberItem, CyberLevelInfo } from '../types';
+import { CyberItem, CyberLevelInfo } from './types';
 
 export const CYBER_LEVELS: CyberLevelInfo[] = [
   {
