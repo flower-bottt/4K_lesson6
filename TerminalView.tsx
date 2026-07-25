@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
-import { ChatLogMessage } from '../types';
+import { ChatLogMessage } from './types';
 import { Terminal, Send, Cpu, CheckCircle2, AlertOctagon, Gift, Zap, CornerDownLeft } from 'lucide-react';
-import { playCyberSound } from '../utils/audio';
+import { playCyberSound } from './audio';
 import { getLevelInfo } from './LevelProgress';
 
 interface TerminalViewProps {
