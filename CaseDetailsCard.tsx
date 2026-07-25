@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CaseData } from '../types';
+import { CaseData } from './types';
 import { AlertTriangle, Lightbulb, MapPin, ChevronDown, ChevronUp, Zap } from 'lucide-react';
 import { playCyberSound } from './audio';
 
