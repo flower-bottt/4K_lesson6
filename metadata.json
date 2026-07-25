@@ -1,0 +1,6 @@
+{
+  "name": "네온 NEON - 네오시티 사이버 탐정",
+  "description": "네오-시티의 사이버 탐정 AI 네온과 함께 인과관계(원인과 결과) 논리를 추리하고 사건을 해결하는 사이버 에듀테인먼트 터미널",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
