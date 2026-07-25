@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { CaseData } from '../types';
 import { AlertTriangle, Lightbulb, MapPin, ChevronDown, ChevronUp, Zap } from 'lucide-react';
-import { playCyberSound } from '../utils/audio';
+import { playCyberSound } from './audio';
 
 interface CaseDetailsCardProps {
   currentCase: CaseData;
